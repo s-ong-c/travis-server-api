@@ -27,7 +27,6 @@
   "scripts": {
     "dev": "NODE_ENV=development ts-node-dev --respawn ./src/server.ts",
     "build":"tsc",
-    "prod":"node ./dist/server.js",
-    "test": "exit"
+    "prod":"node ./dist/server.js"
   }
 }
