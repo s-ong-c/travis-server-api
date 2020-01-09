@@ -1,0 +1,29 @@
+{
+  "name": "ffm-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/FFM-TEAM/FFM-Server.git",
+  "author": "s-ong-c <somony9292@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@types/dotenv": "^6.1.1",
+    "@types/koa": "^2.0.51",
+    "@types/koa-logger": "^3.1.1",
+    "@types/koa-router": "^7.0.42",
+    "dotenv": "^8.2.0",
+    "koa": "^2.10.0",
+    "koa-logger": "^3.2.1",
+    "koa-router": "^7.4.0",
+    "serverless-webpack": "^5.3.1",
+    "source-map-support": "^0.5.13",
+    "ts-loader": "^6.2.0",
+    "ts-node-dev": "^1.0.0-pre.43",
+    "tslint-config-airbnb": "^5.11.2",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^3.6.4",
+    "webpack": "^4.41.2"
+  },
+  "scripts": {
+    "dev": "NODE_ENV=development ts-node-dev --respawn ./src/server.ts"
+  }
+}
